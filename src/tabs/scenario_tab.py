@@ -10,6 +10,7 @@ agents = {
     "hotel_checkin": ScenarioAgent("hotel_checkin"),
     "salary_negotiation": ScenarioAgent("salary_negotiation"),
     "renting": ScenarioAgent("renting"),
+    "visiting_attractions": ScenarioAgent("visiting_attractions"),
     # 可以根据需要添加更多场景代理
 }
 
@@ -47,7 +48,8 @@ def create_scenario_tab():
                 ("求职面试", "job_interview"),  # 求职面试选项
                 ("酒店入住", "hotel_checkin"),  # 酒店入住选项
                 ("薪资谈判", "salary_negotiation"),  # 薪资谈判选项（注释掉）
-                ("租房", "renting")  # 租房选项（注释掉）
+                ("租房", "renting") , # 租房选项（注释掉）
+                ("旅游景点", "visiting_attractions"),
             ], 
             label="场景"  # 单选框标签
         )
