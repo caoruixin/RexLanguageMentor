@@ -29,7 +29,7 @@ def start_new_scenario_chatbot(scenario):
 
     return gr.Chatbot(
         value=[(None, initial_ai_message)],  # 设置聊天机器人的初始消息
-        height=600,  # 聊天窗口高度
+        height=500,  # 聊天窗口高度
     )
 
 # 场景代理处理函数，根据选择的场景调用相应的代理
@@ -57,7 +57,7 @@ def create_scenario_tab():
         scenario_intro = gr.Markdown()  # 场景介绍文本组件
         scenario_chatbot = gr.Chatbot(
             placeholder="<strong>你的英语私教 DjangoPeng</strong><br><br>选择场景后开始对话吧！",  # 聊天机器人的占位符
-            height=600,  # 聊天窗口高度
+            height=500,  # 聊天窗口高度
         )
 
         # 更新场景介绍并在场景变化时启动新会话

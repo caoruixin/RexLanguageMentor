@@ -33,7 +33,7 @@ def restart_vocab_study_chatbot():
     # 返回一个带有初始消息和机器回复的聊天机器人界面
     return gr.Chatbot(
         value=[(_next_round, bot_message)],
-        height=800,  # 设置聊天机器人组件的高度
+        height=500,  # 设置聊天机器人组件的高度
     )
 
 # 处理用户输入的单词学习消息，并与词汇代理互动获取机器人的响应
@@ -54,7 +54,7 @@ def create_vocab_tab():
         # 初始化一个聊天机器人组件，设置占位符文本和高度
         vocab_study_chatbot = gr.Chatbot(
             placeholder="<strong>你的英语私教 DjangoPeng</strong><br><br>开始学习新单词吧！",
-            height=800,
+            height=500,
         )
 
         # 创建一个按钮，用于重置词汇学习状态，值为“下一关”

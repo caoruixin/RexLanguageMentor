@@ -1,0 +1,13 @@
+{
+    "llm": {
+        "model_type": "openai",
+        "gpt_model_name": "gpt-4o-mini",
+        "ollama_model_name": "llama3.1:8b-instruct-q8_0",
+        "ollama_api_url": "http://localhost:11434/api/chat"
+    },
+    "server":{
+        "port":7860,
+        "name":"0.0.0.0"
+    }
+    
+}
