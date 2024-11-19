@@ -1,0 +1,17 @@
+llama model used ============= 
+2024-11-19 18:40:34 | DEBUG | agent_base:chat_with_history:101 - [ChatBot][TestAgent] Mocked response
+llama model used ============= 
+llama model used ============= 
+llama model used ============= 
+llama model used ============= 
+llama model used ============= 
+2024-11-19 18:40:34 | DEBUG | scenario_agent:start_new_session:38 - [history][test_scenario]:
+llama model used ============= 
+2024-11-19 18:40:34 | DEBUG | scenario_agent:start_new_session:38 - [history][test_session]:
+llama model used ============= 
+2024-11-19 18:40:34 | DEBUG | scenario_agent:start_new_session:38 - [history][test_session]:AI: Hello, how can I help?
+llama model used ============= 
+llama model used ============= 
+2024-11-19 18:40:34 | DEBUG | vocab_agent:restart_session:39 - [history][test_session]:
+llama model used ============= 
+2024-11-19 18:40:34 | DEBUG | vocab_agent:restart_session:39 - [history][vocab_study]:

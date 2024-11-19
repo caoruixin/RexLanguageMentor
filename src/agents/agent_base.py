@@ -58,18 +58,22 @@ class AgentBase(ABC):
         ])
 
         # 初始化 ChatOllama 模型，配置参数
-        '''
+        
         self.chatbot = system_prompt | ChatOllama(
             model="llama3.1:8b-instruct-q8_0",  # 使用的模型名称
             max_tokens=8192,  # 最大生成的 token 数
             temperature=0.8,  # 随机性配置
         )
+        print("llama model used ============= ")
+
         '''
         self.chatbot = system_prompt | ChatOpenAI(
             model="gpt-4o-mini",
             max_tokens=8192,
             temperature=0.8,
         )
+        print("gpt model used ============= ")
+        '''
 
 
         # 将聊天机器人与消息历史记录关联
